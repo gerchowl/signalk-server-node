@@ -177,13 +177,13 @@ and type your vessel name. This generates a UUID and a settings file in json for
 
 Stop the daemon temporarily with
 ```
-sudo systemctl stop signalk.service
-sudo systemctl stop signalk.socket
+sudo systemctl stop signalk-server.service
+sudo systemctl stop signalk-server.socket
 ```
 and disable the automatic start with
 ```
-sudo systemctl disable signalk.service
-sudo systemctl disable signalk.socket
+sudo systemctl disable signalk-server.service
+sudo systemctl disable signalk-server.socket
 ```
 
 # Updating Your Raspberry Pi and Signal K Node Server
